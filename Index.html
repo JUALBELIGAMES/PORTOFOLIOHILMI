@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Hilmi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <favicon href="imgs/logofav.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+<section id="about" class="section">
+    <div class="container">
+        <h1 class="saya">ABOUT</h1>
+        
+        <div class="about-wrapper">
+            <!-- Foto -->
+            <img src="imgs/hilmi.jpeg" alt="Foto Hilmi" class="hilmift">
+            
+            <!-- Text About -->
+            <div class="about-content">
+                <p>
+                    Saya adalah seorang individu yang antusias dalam dunia teknologi dan desain.
+                    Saat ini, saya fokus mengembangkan kemampuan di bidang <strong>Front-End Development</strong> 
+                    menggunakan <strong>HTML dan CSS</strong>. Saya juga memiliki pemahaman dasar dalam bahasa 
+                    pemrograman <strong>JavaScript dan Python</strong> untuk mendukung fungsionalitas aplikasi.
+                </p>
+                <p>
+                    Selain teknis, saya memiliki sisi kreatif dalam <strong>Desain Grafis</strong>. 
+                    Saya mampu menciptakan poster yang minimalis namun tetap memiliki nilai visual yang kuat 
+                    dan komunikatif. Saya percaya bahwa kesederhanaan adalah kunci dari desain yang efektif.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+        <!-- Project Section -->
+        <section id="project" class="section">
+            <div class="container">
+                <h1 class="capai">Project</h1>
+                
+                <div class="project-category">
+                    <h2>Project TIK</h2>
+                    <div class="project-grid">
+                        <div class="project-item">
+                            <img src="scarth/SCHT1-NILAI RATA RATA.png" alt="Screenshot Nilai Rata-Rata">
+                            <hr>
+                            <h3>Nilai Rata-Rata</h3>
+                            <hr>
+                            <h2 >Ini Merupakan codingan yang berbasis block,yang bisa di buat di Scarth.Nah Di sini saya membuat menentukan nilai rata rata...</h2>
+                            <button class="Pop-up" data-project="project1">LIhat Detail</button>
+                        </div>
+                        <div class="project-item">
+                            <img src="scarth/SCHT2-NILAI BILANGAN PRIMA at BUKAN.png" alt="Screenshot Bilangan Prima">
+                            <hr>
+                            <h3>Bilangan Prima</h3>
+                            <hr>
+                            <h2 >Ini Merupakan codingan yang berbasis block,Nah Di sini saya membuat apakah sebuah bilangan itu prima atau bukan...</h2>
+                            <button class="Pop-up" data-project="project2">LIhat Detail</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-category">
+                    <h2>Project Pribadi</h2>
+                    <div class="project-grid">
+                        <!-- Tambahkan project pribadi di sini -->
+                        <div class="project-RBX">
+                         <img src="imgs/Project pribadi 1.png" alt="Anim hari guru[roblox]">
+                         <hr>
+                         <h3>Animasi Hari Guru</h3>
+                         <hr>
+                         <h2>ini meruapakn map roblox yang di mana saya buat full code aniamsi nya menggunakan Gemini,Kalau mau liat bisa klik link di abwah ini  </h2>
+                         <a href="https://www.roblox.com/games/95624931163686/ANIM-TEACHER-DAY">MAP ANIMASI HARI GURU</a>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="contact-content">
+                    <section id="contact" class="section">
+                        <div class="container">
+                            <h1 class="contact-title">Contact</h1>
+                            <div class="contact-content">
+                                <a href="https://instagram.com/hilmiyuhyi" target="_blank" class="contact-item instagram">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>@hilmiyuhyi</span>
+                                </a>
+                                
+                                <a href="https://wa.me/6285762403830" target="_blank" class="contact-item whatsapp">
+                                    <i class="fab fa-whatsapp"></i>
+                                    <span>+62 857-6240-3830</span>
+                                </a>
+                                
+                                <a href="mailto:hilmiyusufindra83@gmail.com" target="_blank" class="contact-item email">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>hilmiyusufindra83@gmail.com</span>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer (Optional) -->
+    <footer>
+        <p>&copy; 2026 Hilmi. All rights reserved.</p>
+    </footer>
+
+       <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody">
+                <!-- Content akan diisi oleh JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

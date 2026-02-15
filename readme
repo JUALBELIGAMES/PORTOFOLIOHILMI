@@ -1,0 +1,17 @@
+<!-- Harus ada data-project="project1" -->
+<button class="Pop-up" data-project="project1">Lihat Detail</button>
+
+<!-- Bukan cuma ini -->
+<button class="Pop-up">Lihat Detail</button>
+```
+
+## **2. Cek file `script.js` sudah ada dan benar lokasinya:**
+
+Struktur folder harus seperti ini:
+```
+📁 folder-project/
+  ├── index.html
+  ├── style.css
+  ├── script.js  ← Harus ada di sini!
+  ├── 📁 imgs/
+  └── 📁 scarth/
